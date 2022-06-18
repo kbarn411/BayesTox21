@@ -13,3 +13,12 @@ Bayesian Belief Networks (BBNs) are a graph structure for representing the relat
 - BayesToxMulti.ipynb - notebook containing model for multi-target predictions using BBNs 
 - tox21.sdf - dataset used in this study
 - FingerPrintsDrawings.html - generated html file with images of descriptors used in the study
+
+### Methodology
+- Tox21 dataset containing toxicity data on 12,000 compounds in 12 toxicity tests
+- Molecular fingerprints were used to represent the compounds
+- The Bayesian Belief Network (BBN) algorithm was used for modeling
+- Data preparation: removing variables with fixed values, splitting into a learning set (80% of the data) and a test set (20%)
+- Important descriptors were selected using the entropy based criterion
+- Model evaluation metrics: accuracy, AUC, precision. The evaluation was performed on training set (5-fold cross-validation) and test set
+- Using the BNLearn (Python) library, the shape of the shape of the network and its graphical representation were established
