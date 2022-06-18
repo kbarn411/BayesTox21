@@ -1,4 +1,4 @@
-## Bayesian Belief Networks
+## Bayesian Belief Networks for predicting toxicity
 
 This notebooks contains small project about using BBN for multi-output classification task performed on Tox21 dataset.
 
