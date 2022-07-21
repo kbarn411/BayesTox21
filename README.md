@@ -1,6 +1,6 @@
 ## Bayesian Belief Networks for predicting toxicity
 
-This notebooks contains small project about using BBN for multi-output classification task performed on Tox21 dataset.
+This notebooks contains small research project about using BBN for multi-output classification task performed on Tox21 dataset.
 
 
 ### Summary
@@ -21,4 +21,4 @@ Bayesian Belief Networks (BBN) are a graph structure for representing the relati
 - Data preparation: removing variables with fixed values, splitting into a learning set (80% of the data) and a test set (20%)
 - Important descriptors were selected using the entropy based criterion
 - Model evaluation metrics: accuracy, AUC, precision. The evaluation was performed on training set (5-fold cross-validation) and test set
-- Using the BNLearn (Python) library, the shape of the shape of the network and its graphical representation were established
+- Using the BNLearn (Python) library, shape of the network and its graphical representation were established
