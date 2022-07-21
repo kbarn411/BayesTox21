@@ -22,3 +22,5 @@ Bayesian Belief Networks (BBN) are a graph structure for representing the relati
 - Important descriptors were selected using the entropy based criterion
 - Model evaluation metrics: accuracy, AUC, precision. The evaluation was performed on training set (5-fold cross-validation) and test set
 - Using the BNLearn (Python) library, shape of the network and its graphical representation were established
+
+For more information about results, code or any other questions feel free to contact me.
